@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/catalog.css" rel="stylesheet">
+    
+    <title>Каршеринг</title>
+  </head>
+  <body>
+    <header class="page-header">
+        <nav class="main-nav">
+            <p class="logo">
+                <img src="img/logo.svg" width="70" height="70" alt="ship">
+            </p>
+            <p class="logo-text">Морской<br>транспорт</p>
+            <a class="lk" href="entrance.html">Войти</a>
+            <ul class="site-navigation">
+                <li class="site-navigation-item"><a href="main.html"><img src="img/main.svg" width="50" height="50" alt="ship"></a></li>
+                <li class="site-navigation-item"><a href="order.html"><img src="img/one1.svg" width="50" height="50" alt="ship"></a></li>
+                <li class="site-navigation-item"><a href="shed.html"><img src="img/Vector.svg" width="30" height="30" alt="ship"></a></li>
+                <li class="site-navigation-item"><a href="entrance.html"><img src="img/lk.svg" width="30" height="30" alt="ship"></a></li>
+            </ul>
+            
+        </nav>
+      
+    </header>
+    <main>
+        <section class="account-section">
+            <h2>Личная информация</h2>
+            <form id="userForm">
+                <input type="text" id="name" name="name" placeholder="Имя" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="phone" name="phone" placeholder="Телефон" required>
+                <button type="submit">Обновить</button>
+            </form>
+        </section>
+        <section class="recent-trips">
+            <h2>Недавние поездки</h2>
+            <ul id="tripsList">
+                <li>
+                    <p>Маршрут: Откуда - Куда</p>
+                    <p>Дата: 01.12.2024</p>
+                </li>
+                <li>
+                    <p>Маршрут: Откуда - Куда</p>
+                    <p>Дата: 30.11.2024</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="main-footer">
+        
+    </footer>
+
+    <script>
+        document.getElementById('userForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+
+            
+            alert('Ваши данные обновлены:\nИмя: ' + name + '\nEmail: ' + email + '\nТелефон: ' + phone);
+        });
+    </script>
+    </main>
+    <footer class="main-footer">
+    </footer>
+</body>
+</html>
