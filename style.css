@@ -1,0 +1,254 @@
+body{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2d2829;
+    background-image: url("../img/fon.png");
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.button{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #F1D302;
+}
+
+.base {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    align-items: center;
+    height: 100vh;
+}
+.logo{
+    margin-left: 30px;
+}
+.logo-text{
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.lk{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: #F1D302;
+    width: 100px; 
+     height: 30px;
+     margin-left: auto;
+     margin-right: 200px;
+     margin-top: 30px;
+}
+.site-navigation{
+    background-color: #F1D302;
+    padding: 0 30px;
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.site-navigation-item:nth-child(3), .site-navigation-item:nth-child(4){
+    margin-left: 10px;
+}
+.site-navigation-item{
+    margin-bottom: 10px;
+}
+.main-nav{
+    display: flex;
+}
+a{
+    color: #2d2829;
+    text-decoration: none;
+}
+
+.order{
+    margin-right: 20px;
+    
+}
+
+
+
+.site-navigation {
+    background-color: #F1D302;
+    padding: 0 30px;
+    list-style-type: none;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    position: fixed; 
+    right: 0; 
+    top: 0; 
+}
+.osnova{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-self: center;
+    justify-self: center;
+    
+    margin-top: 100px;
+    gap: 10px;
+}
+.orderr{
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.path-input{
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F1D302;
+}
+.where-input{
+    background-color: #F1D302;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+.path-button{
+    max-width: 300px;
+    background-color: #F1D302;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    margin-left: 110px;
+}
+h1{
+   margin-left: 50px;
+   font-size: 40px;
+}
+.path-container{
+    display: flex;
+    flex-direction:column;
+}
+.rez {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.card {
+    margin-top: 10px;
+    background-color:  #f1d302;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 60px;
+
+}
+.card-list {
+   
+    list-style: none;
+    padding: 0;
+}
+.card-list li {
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e91e63;
+}
+.number {
+   
+    display: flex;
+    margin-left: 60px;
+}
+.number p:nth-child(1) {
+    margin-right: 20px;
+    
+}
+h2{
+    margin-left: 60px;
+    margin-top: 0;
+}
+.cont{
+    
+}
+.b{
+    margin-top: 10px;
+    background-color: #e91e63;
+    padding: 0 50px;
+    border-radius: 20px;
+    color: white;
+}
+.title{
+    color:dimgrey
+}
+.schedule {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto 50px auto;
+}
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+.schedule th, .schedule td {
+    border: 1px solid #2d2829;
+    padding: 10px;
+    text-align: center;
+}
+.account-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.account-section h2 {
+    margin-top: 0;
+}
+.account-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.account-section form input, .account-section form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.account-section form button {
+    background-color: #f1d302;
+    color: #2d2829;
+    cursor: pointer;
+}
+.recent-trips {
+    margin-left: auto;
+    margin-right: auto;
+   
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.recent-trips h2 {
+    margin-top: 0;
+}
+.recent-trips ul {
+    list-style: none;
+    padding: 0;
+}
+.recent-trips li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 10px;
+}
+.recent-trips li:last-child {
+    border-bottom: none;
+}
